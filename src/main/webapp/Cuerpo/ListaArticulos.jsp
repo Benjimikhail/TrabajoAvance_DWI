@@ -14,8 +14,6 @@
                 text-align: right;
                 position: relative;
                 top: 5px;
-                
-                
             }
 
             th,tr{
@@ -27,14 +25,11 @@
                 padding: 30px;
                 text-align: left;
                 font-weight: 100;
-
-
             }
-            table {
 
+            table {
                 border-collapse: separate;
                 border-spacing: 100px 40px;
-
             }
         </style>   
     </head>
@@ -44,7 +39,7 @@
                 Cruds obj= new Cruds();
                 int salto=0;
                 for(Productos p:obj.listado()){
-                   %>
+            %>
                    
                    <th><img src="../imagen/<%=p.getNombreP() + ".jpg" %>" width="140" height="140">
                        <hr>
@@ -53,7 +48,6 @@
                        
                        <h1> S/<%=p.getPrecio()%></h1>
                      
-                       
                        <a href="Carrito.jsp<%=p.getProdID()%>">Añadir</a>
                    </th>
                    <%
@@ -65,8 +59,6 @@
                                salto=0;
                        }
                 }
-
-
                 %>
         </table>
     </body>
