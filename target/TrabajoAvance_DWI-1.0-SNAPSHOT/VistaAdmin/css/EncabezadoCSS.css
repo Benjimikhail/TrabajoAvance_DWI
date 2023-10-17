@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  
+
+  justify-content: center;
+  height: 100vh;
+  background: white;
+}
+
+.buscar {
+  position: absolute;
+  top: 30px; left: 700px;
+  padding: 30px;
+  
+}
+.conte2{
+    position: absolute;
+    top: 110px; left: 1400px;
+    color: black;
+        
+}
+a{
+     text-decoration: none; 
+}
+
+.buscar input {
+  width: 0;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: black;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+  transition: all 0.6s ease;
+}
+
+.btn {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background:#FDB752;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.buscar:hover input {
+  width: 240px;
+}
+
+.buscar input:focus {
+  width: 240px;
+}

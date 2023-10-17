@@ -1,0 +1,9 @@
+Dao\Cruds.class
+Modelo\Productos.class
+util\SQLConexion.class
+Modelo\Proveedor.class
+util\MySQLConexion.class
+Modelo\Categoria.class
+Modelo\Productos2.class
+util\Prueba.class
+controlador\control.class
